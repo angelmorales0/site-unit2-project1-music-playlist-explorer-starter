@@ -3,4 +3,154 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
+    align-content: center;
+}
+main{
+    place-content: center;
+
+}
+
+.playlist-cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    row-gap: 50px;
+    padding-top: 50px;
+}
+.card-img{
+    width:100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+    width: 21%;
+    border-radius: 5px;
+    background-color: #888;
+
+}
+.card-content{
+    padding: 2px 16px
+   
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba (0,0,0,0.2);
+}
+
+/* CSS for Modal */
+.modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+   background-color: #fefefe;
+   margin: 15% auto; /* 15% from the top and centered */
+   padding: 20px;
+   border: 1px solid #888;
+   width: 80%; /* Could be more or less, depending on screen size */
+}
+.close {
+   color: #aaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+}
+.close:hover,
+.close:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+#likes{
+    
+    padding-bottom: 10px;
+}
+#heart.fa-regular.fa-heart:hover::before{
+    color: red;
+}
+
+
+.song-card{
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 black;
+    align-items: center;
+    border-bottom-color: black;
+
+
+
+}
+header {
+  height: 100px; /* or whatever looks good */
+  background-color: #0d51c76a; /* temporary solid color */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#song-img{
+    width: 11%;
+}
+.song-card-body{
+    padding-left: 30px;
+    
+}
+.song-card-header{
+    
+    display:flex;
+    justify-content:left
+    
+}
+#time{
+    padding-right: 20px;
+    font-size: x-large;
+}
+#modal_img{
+    width: 20%;
+    
+    padding-bottom: 50px;
+}
+
+#song-card-content{
+    padding-left: 40px;
+}
+#song-card-container{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+    background-color: #0d51c76a;
+    border-radius: 10px;
+
+
+}
+
+footer{
+    background-color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }

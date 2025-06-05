@@ -1,0 +1,26 @@
+[
+  {
+    "playlistID": 101,
+    "playlist_name": "Chill Vibes",
+    "playlist_author": "DJ Smooth",
+    "playlist_art": "https://example.com/images/chill_vibes.jpg",
+    "likes": 0,
+    "songs": [
+      {
+        "id": 1,
+        "title": "Sunset Boulevard",
+        "artist": "Lofi Beats",
+        "duration": "3:45",
+        "album": "YO"
+      },
+      {
+        "id": 2,
+        "title": "Midnight Walk",
+        "artist": "Dreamwave",
+        "duration": "4:20",
+        "album": "HI"
+      }
+    ]
+  }
+
+]

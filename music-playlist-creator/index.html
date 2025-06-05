@@ -1,27 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Music Playlist Explorer</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <!-- Your header content here -->
+      <!-- Still need to layer these elemtns and center it needs an image -->
+      <h1>Music Playlist Explorer</h1>
     </header>
 
-    <main> 
-        <!-- Your main content here -->
+    <main>
+      <section class="playlist-cards">
+       
+      </section>
+      <!--Do you create playlist cards on the fly our do you pre place the amount of cards and jsut change their data-->
+
+      <div id="first-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+
+          <div class="song-card-header">
+            <img id="modal_img" src="assets/img/playlist.png" />
+            <div id="song-card-content">
+            <h3 id="playlist-title"></h3>
+            <p id="playlist-owner"></p>
+            </div>
+          </div>
+
+          <div class="song-card"> <!--THIS IS WHERE THE INDIVIDUAL SONGS GO-->
+            
+          </div>
+          <!--NEED TO ADD A SONG CARD FOR EACH ITEM + MAKE THE MODAL LOOK NICE -->
+        </div>
+      </div>
     </main>
 
-    <footer>
-        <!-- Your footer content here -->
+   <footer class="site-footer">
+      <h4>Music Playlist Explorer</h4>
+      <p>&copy; 2025 All rights reserved</p>
     </footer>
+
+
     <script src="data/data.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
+
+<!--How to create an element from data-->
