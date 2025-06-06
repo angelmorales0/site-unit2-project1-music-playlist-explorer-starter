@@ -16,10 +16,28 @@ function openModal(playlist) {
   loadSongData(songsArray);
 
   const shuffleBtn = document.getElementById("shuffle-btn");
+  const deleteBtn = document.getElementById("delete-btn");
 
   shuffleBtn.onclick = () => {
     shuffleArray(songsArray);
     loadSongData(songsArray);
+  };
+
+  deleteBtn.onclick = () => {
+    const playlists = document.querySelectorAll(".card");
+    console.log(playlist.owner);
+    console;
+    playlists.forEach((currPlaylist) => {
+      const owner = playlist.owner;
+      if (currPlaylist.innerText.includes(owner)) {
+        currPlaylist.style.display = "none";
+      }
+    });
+
+    deleteBtn.parentElement.parentElement.parentElement.parentElement.style.display =
+      "none";
+
+    // Add hide playlist logic
   };
 }
 //Close modal
