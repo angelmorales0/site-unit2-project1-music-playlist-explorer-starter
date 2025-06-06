@@ -13,15 +13,19 @@
   </head>
   <body>
     <header>
-      <!-- Still need to layer these elemtns and center it needs an image -->
-      <h1>Music Playlist Explorer</h1>
-    </header>
+        <h1>Music Playlist Explorer</h1>
+    <a href="featured.html" id="featured-btn">
+   </i> Featured Playlists
+  </a>
+  <a href="index.html" id="all-playlists-btn">
+  </i> All Playlists
+  </a>
+  </header>
+   
 
     <main>
-      <section class="playlist-cards">
-       
+      <section class="playlist-cards"> 
       </section>
-      <!--Do you create playlist cards on the fly our do you pre place the amount of cards and jsut change their data-->
 
       <div id="first-modal" class="modal">
         <div class="modal-content">
@@ -32,13 +36,13 @@
             <div id="song-card-content">
             <h3 id="playlist-title"></h3>
             <p id="playlist-owner"></p>
+            <button id="shuffle-btn">Shuffle</button>
             </div>
           </div>
 
           <div class="song-card"> <!--THIS IS WHERE THE INDIVIDUAL SONGS GO-->
             
           </div>
-          <!--NEED TO ADD A SONG CARD FOR EACH ITEM + MAKE THE MODAL LOOK NICE -->
         </div>
       </div>
     </main>
@@ -54,4 +58,3 @@
   </body>
 </html>
 
-<!--How to create an element from data-->

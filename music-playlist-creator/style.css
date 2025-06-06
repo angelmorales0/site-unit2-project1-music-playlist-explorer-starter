@@ -41,22 +41,21 @@ main{
 
 /* CSS for Modal */
 .modal {
-   display: none; /* Hidden by default */
-   position: fixed; /* Stay in place */
-   z-index: 1; /* Sit on top */
-   left: 0;
+   display: none;
+   position: fixed; 
+   z-index: 1; 
    top: 0;
-   width: 100%; /* Full width */
-   height: 100%; /* Full height */
-   overflow: auto; /* Enable scroll if needed */
-   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   width: 100%; 
+   height: 100%;
+   overflow: auto; 
+   background-color: rgba(0,0,0,0.4); 
 }
 .modal-content {
    background-color: #fefefe;
-   margin: 15% auto; /* 15% from the top and centered */
+   margin: 15% auto; 
    padding: 20px;
    border: 1px solid #888;
-   width: 80%; /* Could be more or less, depending on screen size */
+   width: 80%; 
 }
 .close {
    color: #aaa;
@@ -83,19 +82,47 @@ main{
     color: red;
 }
 
-
-.song-card{
+#shuffle-btn:hover {
+  background-color: #2563eb;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15); 
+  transform: translateY(-2px) scale(1.04); 
+}
+#shuffle-btn {
+  background-color: #4f8cff;      
+  color: #fff;                  
+  border-radius: 6px;            
+  font-size: 1rem;
+  margin-top: 12px;              
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); 
+}
+.song-card {
     display: flex;
     flex-flow: row wrap;
     row-gap: 20px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 black;
-    align-items: center;
-    border-bottom-color: black;
-
-
-
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
+
+
+
+#song-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.song-card-body {
+    padding-left: 20px;
+    flex-grow: 1;
+}
+
+.song-card-body h4 {
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+
 header {
   height: 100px; /* or whatever looks good */
   background-color: #0d51c76a; /* temporary solid color */
@@ -106,13 +133,7 @@ header {
   text-align: center;
 }
 
-#song-img{
-    width: 11%;
-}
-.song-card-body{
-    padding-left: 30px;
-    
-}
+
 .song-card-header{
     
     display:flex;
@@ -123,10 +144,14 @@ header {
     padding-right: 20px;
     font-size: x-large;
 }
-#modal_img{
-    width: 20%;
-    
-    padding-bottom: 50px;
+#modal_img {
+    width: 30%;
+    display: block;
+    margin-bottom: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25), 
+                0 1.5px 4px 0 rgba(0,0,0,0.10);
+    background: rgba(255,255,255,0.15);
 }
 
 #song-card-content{
@@ -139,6 +164,12 @@ header {
     justify-content: space-between;
     background-color: #0d51c76a;
     border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
 
 
 }
@@ -153,4 +184,56 @@ footer{
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+#featured-content{
+   color: #2563eb;
+   padding-left: 100px;
+}
+#featured-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #561db9;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+#featured-btn:hover {
+  background-color: #148323;
+}
+#featured-img {
+    width: 32%;
+    max-width: 320px;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 1);
+}
+#featured-img:hover {
+    transform: scale(1.04) translateY(-4px);
+    box-shadow: 0 16px 48px 0 rgba(31, 38, 135, 0.32), 
+                0 3px 8px 0 rgba(0,0,0,0.15);
+}
+#all-playlists-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1db954;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#all-playlists-btn:hover {
+  background-color: #591483;
+}
+#modal_img:hover {
+    transform: scale(1.04) translateY(-4px);
+    box-shadow: 0 16px 48px 0 rgba(31, 38, 135, 0.35), 
+                0 3px 8px 0 rgba(0,0,0,0.15);
 }

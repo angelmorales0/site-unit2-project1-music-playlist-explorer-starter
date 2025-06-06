@@ -3,7 +3,7 @@
     "playlistID": 101,
     "playlist_name": "Chill Vibes",
     "playlist_author": "DJ Smooth",
-    "playlist_art": "https://example.com/images/chill_vibes.jpg",
+    "playlist_art": "https://picsum.photos/seed/chillvibes101/200",
     "likes": 0,
     "songs": [
       {
@@ -11,16 +11,382 @@
         "title": "Sunset Boulevard",
         "artist": "Lofi Beats",
         "duration": "3:45",
-        "album": "YO"
+        "album": "YO",
+        "img": "https://picsum.photos/seed/song1011/200"
       },
       {
         "id": 2,
         "title": "Midnight Walk",
         "artist": "Dreamwave",
         "duration": "4:20",
-        "album": "HI"
+        "album": "HI",
+        "img": "https://picsum.photos/seed/song1012/200"
+      },
+      {
+        "id": 3,
+        "title": "Evening Glow",
+        "artist": "Chillhop",
+        "duration": "3:30",
+        "album": "Relax",
+        "img": "https://picsum.photos/seed/song1013/200"
+      },
+      {
+        "id": 4,
+        "title": "Ocean Breeze",
+        "artist": "Waveform",
+        "duration": "4:00",
+        "album": "Calm",
+        "img": "https://picsum.photos/seed/song1014/200"
+      },
+      {
+        "id": 5,
+        "title": "Starlit Night",
+        "artist": "Night Owl",
+        "duration": "3:50",
+        "album": "Dream",
+        "img": "https://picsum.photos/seed/song1015/200"
+      },
+      {
+        "id": 6,
+        "title": "Morning Dew",
+        "artist": "Sunrise",
+        "duration": "4:10",
+        "album": "Awake",
+        "img": "https://picsum.photos/seed/song1016/200"
+      },
+      {
+        "id": 7,
+        "title": "City Lights",
+        "artist": "Urban Flow",
+        "duration": "3:55",
+        "album": "Vibe",
+        "img": "https://picsum.photos/seed/song1017/200"
+      }
+    ]
+  },
+  {
+    "playlistID": 102,
+    "playlist_name": "Energetic Beats",
+    "playlist_author": "DJ Energy",
+    "playlist_art": "https://picsum.photos/seed/energeticbeats102/200",
+    "likes": 0,
+    "songs": [
+      {
+        "id": 1,
+        "title": "Power Surge",
+        "artist": "Electro Pulse",
+        "duration": "3:40",
+        "album": "Charge",
+        "img": "https://picsum.photos/seed/song1021/200"
+      },
+      {
+        "id": 2,
+        "title": "High Voltage",
+        "artist": "Amped Up",
+        "duration": "4:15",
+        "album": "Electric",
+        "img": "https://picsum.photos/seed/song1022/200"
+      },
+      {
+        "id": 3,
+        "title": "Fast Lane",
+        "artist": "Speedster",
+        "duration": "3:25",
+        "album": "Rush",
+        "img": "https://picsum.photos/seed/song1023/200"
+      },
+      {
+        "id": 4,
+        "title": "Adrenaline",
+        "artist": "Thrill Seeker",
+        "duration": "4:05",
+        "album": "Excite",
+        "img": "https://picsum.photos/seed/song1024/200"
+      },
+      {
+        "id": 5,
+        "title": "Pulse",
+        "artist": "Heartbeat",
+        "duration": "3:35",
+        "album": "Throb",
+        "img": "https://picsum.photos/seed/song1025/200"
+      },
+      {
+        "id": 6,
+        "title": "Energize",
+        "artist": "Powerhouse",
+        "duration": "4:00",
+        "album": "Boost",
+        "img": "https://picsum.photos/seed/song1026/200"
+      },
+      {
+        "id": 7,
+        "title": "Rev Up",
+        "artist": "Engine",
+        "duration": "3:45",
+        "album": "Drive",
+        "img": "https://picsum.photos/seed/song1027/200"
+      }
+    ]
+  },
+  {
+    "playlistID": 103,
+    "playlist_name": "Relaxing Tunes",
+    "playlist_author": "DJ Calm",
+    "playlist_art": "https://picsum.photos/seed/relaxingtunes103/200",
+    "likes": 0,
+    "songs": [
+      {
+        "id": 1,
+        "title": "Gentle Waves",
+        "artist": "Ocean Sounds",
+        "duration": "3:50",
+        "album": "Peace",
+        "img": "https://picsum.photos/seed/song1031/200"
+      },
+      {
+        "id": 2,
+        "title": "Soft Breeze",
+        "artist": "Nature's Whisper",
+        "duration": "4:25",
+        "album": "Calm",
+        "img": "https://picsum.photos/seed/song1032/200"
+      },
+      {
+        "id": 3,
+        "title": "Quiet Night",
+        "artist": "Moonlight",
+        "duration": "3:35",
+        "album": "Serene",
+        "img": "https://picsum.photos/seed/song1033/200"
+      },
+      {
+        "id": 4,
+        "title": "Tranquil",
+        "artist": "Stillness",
+        "duration": "4:10",
+        "album": "Rest",
+        "img": "https://picsum.photos/seed/song1034/200"
+      },
+      {
+        "id": 5,
+        "title": "Calm Waters",
+        "artist": "Lake View",
+        "duration": "3:45",
+        "album": "Relax",
+        "img": "https://picsum.photos/seed/song1035/200"
+      },
+      {
+        "id": 6,
+        "title": "Peaceful Mind",
+        "artist": "Zen",
+        "duration": "4:05",
+        "album": "Meditate",
+        "img": "https://picsum.photos/seed/song1036/200"
+      },
+      {
+        "id": 7,
+        "title": "Silent Forest",
+        "artist": "Woodland",
+        "duration": "3:55",
+        "album": "Nature",
+        "img": "https://picsum.photos/seed/song1037/200"
+      }
+    ]
+  },
+  {
+    "playlistID": 104,
+    "playlist_name": "Party Hits",
+    "playlist_author": "DJ Party",
+    "playlist_art": "https://picsum.photos/seed/partyhits104/200",
+    "likes": 0,
+    "songs": [
+      {
+        "id": 1,
+        "title": "Dance Floor",
+        "artist": "Club Mix",
+        "duration": "3:30",
+        "album": "Groove",
+        "img": "https://picsum.photos/seed/song1041/200"
+      },
+      {
+        "id": 2,
+        "title": "Night Out",
+        "artist": "Party People",
+        "duration": "4:00",
+        "album": "Fun",
+        "img": "https://picsum.photos/seed/song1042/200"
+      },
+      {
+        "id": 3,
+        "title": "Celebration",
+        "artist": "Festive",
+        "duration": "3:40",
+        "album": "Joy",
+        "img": "https://picsum.photos/seed/song1043/200"
+      },
+      {
+        "id": 4,
+        "title": "Good Vibes",
+        "artist": "Feel Good",
+        "duration": "4:15",
+        "album": "Happy",
+        "img": "https://picsum.photos/seed/song1044/200"
+      },
+      {
+        "id": 5,
+        "title": "Party Time",
+        "artist": "DJ Fun",
+        "duration": "3:35",
+        "album": "Excite",
+        "img": "https://picsum.photos/seed/song1045/200"
+      },
+      {
+        "id": 6,
+        "title": "Get Down",
+        "artist": "Dance Crew",
+        "duration": "4:05",
+        "album": "Move",
+        "img": "https://picsum.photos/seed/song1046/200"
+      },
+      {
+        "id": 7,
+        "title": "Turn Up",
+        "artist": "Loud Beats",
+        "duration": "3:50",
+        "album": "Amp",
+        "img": "https://picsum.photos/seed/song1047/200"
+      }
+    ]
+  },
+  {
+    "playlistID": 105,
+    "playlist_name": "Workout Mix",
+    "playlist_author": "DJ Fit",
+    "playlist_art": "https://picsum.photos/seed/workoutmix105/200",
+    "likes": 0,
+    "songs": [
+      {
+        "id": 1,
+        "title": "Push It",
+        "artist": "Gym Beats",
+        "duration": "3:45",
+        "album": "Lift",
+        "img": "https://picsum.photos/seed/song1051/200"
+      },
+      {
+        "id": 2,
+        "title": "Run Fast",
+        "artist": "Sprint",
+        "duration": "4:10",
+        "album": "Speed",
+        "img": "https://picsum.photos/seed/song1052/200"
+      },
+      {
+        "id": 3,
+        "title": "Power Up",
+        "artist": "Energy",
+        "duration": "3:50",
+        "album": "Boost",
+        "img": "https://picsum.photos/seed/song1053/200"
+      },
+      {
+        "id": 4,
+        "title": "Strength",
+        "artist": "Muscle",
+        "duration": "4:20",
+        "album": "Build",
+        "img": "https://picsum.photos/seed/song1054/200"
+      },
+      {
+        "id": 5,
+        "title": "Endurance",
+        "artist": "Stamina",
+        "duration": "3:55",
+        "album": "Last",
+        "img": "https://picsum.photos/seed/song1055/200"
+      },
+      {
+        "id": 6,
+        "title": "Focus",
+        "artist": "Concentration",
+        "duration": "4:00",
+        "album": "Mind",
+        "img": "https://picsum.photos/seed/song1056/200"
+      },
+      {
+        "id": 7,
+        "title": "Motivation",
+        "artist": "Drive",
+        "duration": "3:35",
+        "album": "Inspire",
+        "img": "https://picsum.photos/seed/song1057/200"
+      }
+    ]
+  },
+  {
+    "playlistID": 106,
+    "playlist_name": "Classical Collection",
+    "playlist_author": "DJ Classic",
+    "playlist_art": "https://picsum.photos/seed/classicalcollection106/200",
+    "likes": 0,
+    "songs": [
+      {
+        "id": 1,
+        "title": "Symphony No. 5",
+        "artist": "Beethoven",
+        "duration": "7:05",
+        "album": "Classics",
+        "img": "https://picsum.photos/seed/song1061/200"
+      },
+      {
+        "id": 2,
+        "title": "Four Seasons",
+        "artist": "Vivaldi",
+        "duration": "8:20",
+        "album": "Baroque",
+        "img": "https://picsum.photos/seed/song1062/200"
+      },
+      {
+        "id": 3,
+        "title": "Nocturne",
+        "artist": "Chopin",
+        "duration": "6:45",
+        "album": "Romantic",
+        "img": "https://picsum.photos/seed/song1063/200"
+      },
+      {
+        "id": 4,
+        "title": "Swan Lake",
+        "artist": "Tchaikovsky",
+        "duration": "9:00",
+        "album": "Ballet",
+        "img": "https://picsum.photos/seed/song1064/200"
+      },
+      {
+        "id": 5,
+        "title": "Canon in D",
+        "artist": "Pachelbel",
+        "duration": "5:30",
+        "album": "Wedding",
+        "img": "https://picsum.photos/seed/song1065/200"
+      },
+      {
+        "id": 6,
+        "title": "Clair de Lune",
+        "artist": "Debussy",
+        "duration": "5:15",
+        "album": "Impressionist",
+        "img": "https://picsum.photos/seed/song1066/200"
+      },
+      {
+        "id": 7,
+        "title": "Boléro",
+        "artist": "Ravel",
+        "duration": "6:30",
+        "album": "Modern",
+        "img": "https://picsum.photos/seed/song1067/200"
       }
     ]
   }
-
 ]
