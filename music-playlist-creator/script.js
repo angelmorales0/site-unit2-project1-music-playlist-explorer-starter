@@ -1,7 +1,5 @@
 const modal = document.getElementById("first-modal");
 const span = document.querySelector(".close");
-let likes = 0;
-
 let songsArray = [];
 let playlistArray = [];
 
@@ -74,21 +72,24 @@ async function loadPlaylistData() {
 
       function toggleLike(event) {
         const heart = event.target;
-        isLiked = 1 == likes;
-
+        const currentLikes = parseInt(heart.innerText);
+        console.log(currentLikes);
+        const isLiked = heart.style.color == "red";
         if (isLiked) {
-          likes--;
+          console.log(2);
           heart.style.color = "black";
+          heart.innerText = `${currentLikes - 1} Likes`;
         } else {
-          likes++;
           heart.style.color = "red";
+          heart.innerText = `${currentLikes + 1} Likes`;
         }
-        heart.innerText = " " + likes + " likes";
       }
     });
 }
 
 function makePlaylist(props) {
+  let likes = props.likes || 0;
+
   return `<article
      
           class="card">
